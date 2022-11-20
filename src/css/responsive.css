@@ -1,0 +1,25 @@
+@media (max-width: 650px) {
+  .card {
+    flex-direction: column;
+    width: 34rem;
+  }
+
+  .card .product-description h1,
+  .card .product-description p,
+  .card .product-description .price,
+  .card .product-description .btn-add-cart {
+    margin-top: 1.5rem;
+  }
+
+  .card .product-image {
+    width: 100%;
+  }
+
+  .card .product-description {
+    width: 100%;
+  }
+
+  .card .product-image img {
+    border-radius: 1rem 1rem 0 0;
+  }
+}

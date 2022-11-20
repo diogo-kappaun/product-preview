@@ -1,0 +1,113 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: var(--background);
+  font-family: var(--font);
+  font-weight: 500;
+  color: var(--p);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  border-radius: 1rem;
+  background-color: var(--bgcard);
+  height: 100%;
+}
+
+.card .product-image {
+  width: 30rem;
+}
+
+.card .product-image img {
+  width: 100%;
+  border-radius: 1rem 0 0 1rem;
+  height: 100%;
+}
+
+
+.card .product-description {
+  width: 30rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .product-description h1,
+.card .product-description p,
+.card .product-description .price,
+.card .product-description .btn-add-cart {
+  margin-top: 2.90rem;
+}
+
+.card .product-description .perfume {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.card .product-description h1,
+.card .product-description .new-price {
+  font-family: var(--font-main);
+}
+
+.card .product-description h1 {
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  color: var(--h1);
+  font-weight: 700;
+}
+
+.card .product-description p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.card .product-description .price {
+  display: flex;
+  align-items: center;
+}
+
+.product-description .price .new-price {
+  color: var(--price-btn);
+  font-size: 3.3rem;
+  margin-right: 1.5rem;
+}
+
+.product-description .price .old-price {
+  text-decoration: line-through;
+  font-size: 1.3rem;
+}
+
+.card .product-description .btn-add-cart {
+  background-color: var(--price-btn);
+  color: var(--bgcard);
+  border: none;
+  padding: 1.3rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 1.3rem;
+  transition: ease-in-out 0.3s;
+}
+
+.card .product-description .btn-add-cart:hover {
+  cursor: pointer;
+  background-color: hsl(156, 42%, 18%);
+}
+
+.product-description .btn-add-cart img {
+  margin-right: 1rem;
+}

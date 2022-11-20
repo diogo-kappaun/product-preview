@@ -1,0 +1,12 @@
+:root {
+  /* Colors */
+  --background: hsl(30, 38%, 92%);
+  --price-btn: hsl(158, 36%, 37%);
+  --h1: hsl(212, 21%, 14%);
+  --p: hsl(228, 12%, 48%);
+  --bgcard: hsl(0, 0%, 100%);
+  /* Font */
+  --font-size: 14px;
+  --font-main: 'Fraunces', serif;
+  --font: 'Montserrat', sans-serif;
+}
